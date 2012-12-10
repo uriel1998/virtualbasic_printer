@@ -1,7 +1,7 @@
 virtualbasic_printer
 ====================
 
-Print Return Transport Request Via Network Printer and Virtual Basic Script
+Print Return Transport Request Via Network Printer and Visual Basic Script
 
 by Steven Saus
 
