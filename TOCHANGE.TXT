@@ -1,0 +1,9 @@
+Line 68:  These are the only variables I needed for this project.  Repeat as needed for your own project.
+Line 98:  Change "99" to one more than the highest room number of holding rooms you have.
+Line 105: Obviously, if you need more modes than this, add more "If response" lines and values, and don't forget to change line 107 to a higher number.
+Line 114: If your institution has need for more granular isolation codes than this, use code like that for the transport mode.
+Line 125: Edit as needed.  Likewise with line 127.
+Line 130-132:  Replace with your printer path names.
+Line 152: If you want to be slick, make an ASCII art image of your logo here http://www.glassgiant.com/ascii/ 
+
+
