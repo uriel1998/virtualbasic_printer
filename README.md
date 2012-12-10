@@ -1,4 +1,4 @@
-virtualbasic_printer
+visualbasic_printer
 ====================
 
 Print Return Transport Request Via Network Printer and Visual Basic Script
