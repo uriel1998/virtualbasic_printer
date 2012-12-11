@@ -16,7 +16,7 @@ that we can easily deal with non-default printers, network printers, etc.
 This is the public version of the script - I have stripped all path names and
 institution identifying information from it.  You will need to put in your own
 printer path names and so on.  These are annotated in TOCHANGE.TXT in this Git
-repository.
+repository.  A more formal manpage-style documentation is also available in this repository.
 
 Please note that this script explicitly overwrites its temporary files and 
 closes out objects in memory to preserve HIPPA-required privacy.
