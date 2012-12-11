@@ -40,6 +40,7 @@ Several prerequisites are necessary to utilize this script properly:
 + Temporary directory located at c:\temp
 
 Visual Basic 6 is installed on many Windows platforms by default, and has been since 1998.&nbsp; Some newer versions of Windows may not have VB6 installed;&nbsp; one guide to installing it on Windows7 is located at:&nbsp; [http://www.fortypoundhead.com/showcontent.asp?artid=20502](http://www.fortypoundhead.com/showcontent.asp?artid=20502)
+
 The copy of the script on GitHub has all institutional identifying data removed.&nbsp; A number of small customizations will need to be made to the script in order to have it operate correctly on your system.&nbsp; The list of these modifications (with line numbers) is in the TOCHANGE.TXT file in the GitHub repository.&nbsp; The public version of the script is also named return_print_public.vbs instead of return_print.vbs .
 
 ##License
