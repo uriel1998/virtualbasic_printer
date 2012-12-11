@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Return Transport Request Documentation (1)</title>
+<meta name="Author" content="Steven Saus">
+<style>p{margin-top:0pt;margin-bottom:0pt;}</style>
+</head>
+<body>
+<h1>Return Transport Request Documentation (1)</h1>
+<h2>Name</h2>
+<p>return_request.vbs - Get user input to create a return transport request and print to a predefined Windows printer.</p>
+<h2>Synopsis</h2>
+<p><b>return_request.vbs</b></p>
+<p>The script has no command-line arguments.</p>
+<h2>Description</h2>
+<p><i>return_request.vbs</i> is a Visual Basic script that gets user input to create a specific form and print that form to a predefined Windows printer.&nbsp; It obtains user input from a series of GUI input boxes.&nbsp; The script returns a messagebox with a success or error condition for the user. </p>
+<p>This script is indicated for requesting transport originating from a remote holding location or department to the patient's room or other location.&nbsp; This script is not intended for use when the patient transport originates from the patient's room.&nbsp; </p>
+<p>Existing processes do not have the functionality to request return a patient from a remote holding room to their room.&nbsp; Telephonic notification creates inefficiencies in workflows for multiple departments.</p>
+<p>Exiting the script is achieved by leaving any input box blank.</p>
+<p>The public version of the script and documentation is available at <a href="https://github.com/uriel1998/virtualbasic_printer">https://github.com/uriel1998/virtualbasic_printer</a></p>
+<h2>HIPPA Concerns</h2>
+<p>Several methods are utilized to prevent leakage of HIPPA data:</p>
+<ul>
+<li>Printer locations hardcoded into the script itself ; end-users cannot alter the printing locations.</li>
+<li>Temporary files are written immediately prior to printing and explicitly deleted afterward.</li>
+<li>Memory allocations are expressly released and assigned to null values.</li>
+<li>No logfile is created or maintained.</li>
+</ul>
+<h2>Prerequisites</h2>
+<p>Several prerequisites are necessary to utilize this script properly:</p>
+<ul>
+<li>Microsoft Visual Basic 6 (c:\WINDOWS\system32\msvbm60.dll)</li>
+<li>User permissions to print to desired printer(s)</li>
+<li>Temporary directory located at c:\temp</li>
+</ul>
+<p>Visual Basic 6 is installed on many Windows platforms by default, and has been since 1998.&nbsp; Some newer versions of Windows may not have VB6 installed;&nbsp; one guide to installing it on Windows7 is located at:&nbsp; <a href="http://www.fortypoundhead.com/showcontent.asp?artid=20502">http://www.fortypoundhead.com/showcontent.asp?artid=20502</a></p>
+<p>The copy of the script on GitHub has all institutional identifying data removed.&nbsp; A number of small customizations will need to be made to the script in order to have it operate correctly on your system.&nbsp; The list of these modifications (with line numbers) is in the TOCHANGE.TXT file in the GitHub repository.&nbsp; The public version of the script is also named return_print_public.vbs instead of return_print.vbs .</p>
+<h2>License</h2>
+<p>This script and all documentation is licensed under a Creative Commons BY-SA 3.0 Unported license.&nbsp; </p>
+<p>To view a copy of this license, visit <a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0/</a>.
+</body>
+
+</html>
